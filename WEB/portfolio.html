@@ -1,0 +1,187 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>JOMOL JEEJO K</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .logo {
+            width: 13%;
+            padding: 0;
+            display: flex;
+            align-items: center;
+        }
+
+        .nav {
+            font-family: 'Oswald', sans-serif;
+            background-color:#34383b  ;
+            color: #fff;
+            text-align: center;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px;
+        }
+
+        .nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+        }
+
+        .nav a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: #fff;
+        }
+
+        .hero {
+            background-image: url("./bg.jpg");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            display: flex;
+            align-items: center;
+            justify-content: space-between; /* Adjusted to place the image on the left and content on the right */
+            padding: 20px;
+            position: relative;
+        }
+
+        .glass {
+            width: 100%;
+            border-radius: 30px;
+            padding: 30px 20px;
+
+            background: rgba(153, 150, 150, 0.09);
+            backdrop-filter: blur(5px);
+        }
+
+        .hero img {
+            max-width: 50%;
+            border-radius: 1000px;
+            margin-right: 20px;
+            width: 200px;
+            height: auto;
+            box-shadow: rgba(201, 201, 201, 0.499) 0px 5px 15px;
+        }
+
+        .hero-info {
+            flex: 1;
+        }
+        h2 {
+            font-family: 'Oswald', sans-serif;
+            font-size: 28px;
+            color: #00008b;
+        }
+
+        .hero h4 {
+            font-size: 18px;
+            color: #9BA4B5;
+        }
+
+        p {
+            font-size: 16px;
+            color: #EEEEEE;
+            text-align: center;
+        }
+
+        .container {
+            max-width: 960px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+        }
+
+        .profile-image {
+            max-width: 100%;
+            height: auto;
+        }
+        #contact {
+            background-color: #000000;
+            color: #fff;
+            padding: 50px 0;
+            text-align: center;
+
+
+        }
+
+        #contact h2 {
+            font-family: 'Oswald', sans-serif;
+            font-size: 36px;
+            margin-bottom: 20px;
+            color: #013f82;
+
+        }
+
+        #contact p {
+            font-size: 18px;
+            margin: 20px 0;
+            color: #333;
+        }
+
+        #contact ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        #contact li {
+            font-size: 16px;
+            margin: 10px 0;
+        }
+        #contact .container{
+
+            border-radius: 20px;
+            background: rgba(255, 255, 255, 0.884);
+
+        }
+
+        #contact a {
+            color: #013f82;
+            text-decoration: none;
+        }
+
+        #contact a:hover {
+            text-decoration: underline;
+        }
+</style>
+</head>
+<body>
+  <div class="nav">
+      <a class="logo" href=""><p>JOMOL JEEJO K</p></a>
+      <ul type="none" classname="items">
+          <a href="">Home</a>
+          <a href="#projects">Projects</a>
+          <ahref="#contacts">Contacts</a>
+      </ul>
+  </div>
+  <section id="hero">
+      <div class="hero">
+          <div class="glass">
+              <img src="./my.jpg" alt="Hero Image" />
+              <div class="hero-info">
+                  <h2>JOMOLJEEJO K</h2>
+                  <h4>Student | Engineer  |</h4>
+              </div>
+          </div>
+      </div>
+  </section>
+  <section id="contact">
+      <div class="container">
+          <h2>Contact Me</h2>
+          <p>
+              If you have any questions or would like to get in touch, feel free to reach out to me using the following methods:
+          </p>
+          <ul>
+               <a href="mailto:jomol222038@sahrdaya.ac.in">email</a>|
+               <a href="https://www.instagram.com/jomoljeejo/">instagram</a> |
+               <a href="https://github.com/yourusername">github</a>
+          </ul>
+      </div>
+  </section>
+</body>
+</html>
